@@ -24,6 +24,9 @@ jobs:
     name: Test
     runs-on: ${{ matrix.os }}
 
+    name: Change to dnabactanalyzer directory
+    run: cd dnabactanalyzer
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
