@@ -1,3 +1,4 @@
+from __future__ import annotations 
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 from Bio.SeqFeature import SeqFeature
@@ -60,7 +61,7 @@ class GenBankProcessor:
 
     def write_gene_faa(self, out_path: str) -> None:
         pass
-    
+
 
     def get_full_info_df(self, record_type: str = 'genome') -> pd.DataFrame:
         dfs = []
