@@ -1,0 +1,1 @@
+[![CI](https://github.com/microbemax/dnabactanalyzer/actions/workflows/ci.yaml/badge.svg)](https://github.com/microbemax/dnabactanalyzer/actions/workflows/ci.yaml)
